@@ -1,0 +1,23 @@
+'use strict';
+/* global angular */
+ 
+var app = angular.module('app',[
+     
+    'ui.router',
+    ]);
+
+app.config(['$stateProvider', '$locationProvider',
+function( $stateProvider, $locationProvider) {
+    
+    $locationProvider.hashPrefix('!');
+    $locationProvider.html5Mode({enabled: true, requireBase: false});
+    
+    $stateProvider
+    .state('home', {
+          url:'/:id',
+          templateUrl: "<%= asset_path('home.html') %>",
+          controller: 'home'
+      });
+ 
+    
+}]);

@@ -1,5 +1,13 @@
 {
   "name": "self-control",
-  "private": true,
-  "dependencies": {}
+  "version": "1.0.0",
+  "description": "incentive for self control with consequences",
+  "main": "index.js",
+  "repository": "git@github.com:p0lska/self-control.git",
+  "author": "p0lska <n.makowiecki@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.22",
+    "angular": "^1.7.8"
+  }
 }

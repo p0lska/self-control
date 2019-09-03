@@ -10,6 +10,8 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require angular
+//= require @uirouter/angularjs/release/angular-ui-router
 //= require rails-ujs
 //= require turbolinks
 //= require_tree .
